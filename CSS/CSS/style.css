@@ -1,0 +1,19 @@
+body{font-family:"Smooch Sans", sans-serif;
+}
+
+div {
+    width: 50px;
+    height: 50px;
+    background: green;}
+
+
+.first {background: purple;
+    font-size: 100px;}
+
+.second {
+    background: rgb(128, 51, 0);
+}
+
+.third {
+    background: rgb(0, 128, 79);
+}

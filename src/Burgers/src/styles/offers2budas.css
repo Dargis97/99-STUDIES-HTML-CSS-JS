@@ -1,0 +1,34 @@
+.offers2 {
+    max-width: 1440px;
+    padding: 70px 108px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.burger-headings {
+    font-family: 'Bebas Neue', cursive;
+    position: absolute;
+    top: 30px;
+    left: 25px;
+    color: #fff;
+    width: 30%;
+}
+
+.half-width {
+    width: 50%;
+}
+
+.burger-headings h4 {
+    font-size: 28px;
+}
+
+.burger-headings h2 {
+    font-size: 38px;
+}
+
+.right-side-burgers {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}

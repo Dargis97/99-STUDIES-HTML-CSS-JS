@@ -1,0 +1,114 @@
+.hover-me {
+  position: relative;
+}
+
+.hover-me menu {
+  position: absolute;
+  left: -100%;
+  -webkit-transition: left 500ms linear;
+  transition: left 500ms linear;
+}
+
+.hover-me:hover menu {
+  left: 0;
+}
+
+body {
+  height: 100vh;
+  position: relative;
+}
+
+.loading {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  width: 100px;
+  height: 100px;
+  border: 5px dotted red;
+  border-bottom: none;
+  border-radius: 50%;
+  -webkit-animation: loading-spinner 2s linear infinite;
+          animation: loading-spinner 2s linear infinite;
+}
+
+@-webkit-keyframes loading-spinner {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  50% {
+    -webkit-transform: rotate(120deg);
+            transform: rotate(120deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+@keyframes loading-spinner {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  50% {
+    -webkit-transform: rotate(120deg);
+            transform: rotate(120deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+body {
+  position: relative;
+}
+
+.wave-container {
+  width: 100vw;
+  position: fixed;
+  top: 50%;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (400px)[5];
+      grid-template-columns: repeat(5, 400px);
+}
+
+.wave-container .wave {
+  border-top: 2px solid blue;
+  -webkit-animation: waving1 1s linear infinite;
+          animation: waving1 1s linear infinite;
+  height: 200px;
+  border-radius: 50%;
+}
+
+.wave-container .wave:nth-of-type(even) {
+  border-top: none;
+  border-bottom: 2px solid blue;
+}
+
+@-webkit-keyframes waving1 {
+  0% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+  100% {
+    -webkit-transform: translateX(-200%);
+            transform: translateX(-200%);
+  }
+}
+
+@keyframes waving1 {
+  0% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+  100% {
+    -webkit-transform: translateX(-200%);
+            transform: translateX(-200%);
+  }
+}
+/*# sourceMappingURL=style.css.map */

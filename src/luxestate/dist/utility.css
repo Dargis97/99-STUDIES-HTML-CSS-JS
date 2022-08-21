@@ -1,0 +1,33 @@
+.container {
+  max-width: 1180px;
+  margin: auto;
+}
+
+.logo {
+  font-size: 25px;
+  font-weight: 600;
+  color: #1f373d;
+}
+
+@-webkit-keyframes slidein {
+  from {
+    margin-bottom: 5%;
+  }
+  to {
+    margin-right: -5%;
+  }
+}
+
+@keyframes slidein {
+  from {
+    margin-bottom: 5%;
+  }
+  to {
+    margin-right: -5%;
+  }
+}
+
+.background {
+  background-color: #96bece;
+}
+/*# sourceMappingURL=utility.css.map */

@@ -1,0 +1,15 @@
+.offers2{
+    max-width: 1440px;
+    padding: 70px 108px;
+    display: flex;
+    justify-content: space-between;
+    margin:auto;
+}
+
+.burger-headings {
+    position:absolute;
+    top: 30px;
+    left:25px;
+    color: #fff;
+}
+

@@ -1,0 +1,116 @@
+header {
+  position: relative;
+}
+
+.button {
+  overflow: hidden;
+  width: 100px;
+  height: 100px;
+  background: red;
+}
+
+.button menu {
+  position: absolute;
+  left: -100%;
+  top: -50%;
+  -webkit-transition: left 300ms ease-in-out, top 300ms ease-in-out;
+  transition: left 300ms ease-in-out, top 300ms ease-in-out;
+}
+
+.button:hover {
+  background: green;
+}
+
+.button:hover menu {
+  left: 0%;
+  top: 20%;
+}
+
+.loading {
+  margin: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 150px;
+  height: 100px;
+  border: 6px dashed aliceblue;
+  border-bottom: none;
+  border-radius: 50%;
+  -webkit-animation: mymove 3s infinite linear, infinite-spinning 3s infinite linear, mymove2 3s infinite linear;
+          animation: mymove 3s infinite linear, infinite-spinning 3s infinite linear, mymove2 3s infinite linear;
+}
+
+@-webkit-keyframes infinite-spinning {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+@keyframes infinite-spinning {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+@-webkit-keyframes mymove {
+  0% {
+    top: 0px;
+    background: red;
+    width: 100px;
+  }
+  100% {
+    top: 300px;
+    background: yellow;
+    width: 600px;
+  }
+}
+
+@keyframes mymove {
+  0% {
+    top: 0px;
+    background: red;
+    width: 100px;
+  }
+  100% {
+    top: 300px;
+    background: yellow;
+    width: 600px;
+  }
+}
+
+@-webkit-keyframes mymove2 {
+  100% {
+    top: 300px;
+    background: #00ff2a;
+    width: 600px;
+  }
+  0% {
+    top: 0px;
+    background: #ff00b3;
+    width: 100px;
+  }
+}
+
+@keyframes mymove2 {
+  100% {
+    top: 300px;
+    background: #00ff2a;
+    width: 600px;
+  }
+  0% {
+    top: 0px;
+    background: #ff00b3;
+    width: 100px;
+  }
+}
+/*# sourceMappingURL=style.css.map */

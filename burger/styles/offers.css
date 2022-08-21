@@ -1,0 +1,51 @@
+.offers {
+    display:flex;
+    padding: 70px 108px;
+    justify-content: space-between;
+}
+
+
+
+.card{
+    width: 596px;
+    height: 192px;
+    padding: 30px 24px;
+}
+
+.big-card {
+    background: url(../assets/Burger2.png);
+    height: 420px;
+    width: 596px;
+    margin-right: 42px;
+}
+
+
+.card.first {
+    background: url(../assets/Burger3.png);
+    margin-bottom: 35px;
+    }
+
+.card.second { 
+    background: url(../assets/burger4.png);
+   
+}
+
+.card div {
+    
+    width: 33%;
+}
+
+.card h2, .card h4 {
+    font-weight: 700;
+    font-family: 'Bebas Neue', cursive;
+    color: #ffff;
+}
+
+.card h2{
+font-size: 38px;
+}
+
+.card h4{
+    margin-bottom: 2px;
+    font-size: 25px;
+}

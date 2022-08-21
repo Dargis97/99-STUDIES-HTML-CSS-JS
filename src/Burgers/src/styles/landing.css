@@ -1,0 +1,117 @@
+.landing-background {
+    background: url(../assets/background.png);
+    margin-top: -193px;
+    padding: 213px 56px 78px;
+}
+
+.landing {
+    max-width: 1440px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.landing .headings {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 76px;
+}
+
+.dashed, .landing h2, .landing h4 {
+    color: #3d2514;
+    margin-bottom: 24px;
+}
+
+.dashed {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 24px;
+    border: 1px dashed #3d2514;
+    padding: 12px 18px 10px;
+}
+
+.landing h2, .landing h4 {
+    font-family: 'Alfa Slab One', cursive;
+    text-shadow: 4px 4.5px 0 #fee8bc;
+    text-transform: uppercase;
+}
+
+.landing h2 {
+    font-size: 114px;
+}
+
+.landing h4 {
+    font-size: 56px;
+}
+
+.burger-container {
+    position: relative;
+}
+
+.burger-container img {
+    position: relative;
+    z-index: 1;
+}
+
+.glow {
+    z-index: 0;
+    width: 1px;
+    height: 1px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    box-shadow: 0 -60px 160px 216px #ffde9c;
+}
+
+.circle {
+    z-index: 2;
+    position: absolute;
+    left: 15px;
+    bottom: 0;
+    width: 174px;
+    height: 174px;
+    padding: 12px;
+    border-radius: 50%;
+    background: #bf2222;
+}
+
+.price {
+    border: 2px dashed #fff;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    padding: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.price-top {
+    display: flex;
+    align-items: flex-end;
+}
+
+.dollars, .cents, .price .text {
+    font-family: 'Bebas Neue', cursive;
+    color: #fff;
+}
+
+.dollars {
+    font-size: 70px;
+    line-height: 58px;
+}
+
+.cents {
+    font-size: 32px;
+}
+
+.price .text {
+    font-size: 34px;
+    letter-spacing: 12px;
+    margin-right: -10px;
+}
+

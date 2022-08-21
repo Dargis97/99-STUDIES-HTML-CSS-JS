@@ -1,0 +1,43 @@
+@mixin cube($dimensions:100px) {
+    height: $dimensions;
+    width: $dimensions;
+    box-shadow: 0 0 3px 5px;
+
+}
+
+
+$name: green;
+
+form {
+    margin: 20px;
+
+    div {
+        @include cube;
+        background: $name;
+
+        div {
+            @include cube(75px);
+            background: red;
+
+            div {
+                @include cube(50px);
+                background: purple;
+            }
+        }
+    }
+}
+
+@mixin layout($horizontal:center, $vertical:center) {
+    display: flex;
+    justify-content: $horizontal;
+    align-items: $vertical;
+}
+
+.flex {
+    @include layout;
+    width: 300px;
+    height: 400px;
+    color: white;
+    background: purple;
+    font-size: 30px;
+}

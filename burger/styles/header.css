@@ -1,0 +1,42 @@
+/* font-family: 'Alfa Slab One', cursive;
+font-family: 'Bebas Neue', cursive;
+font-family: 'Montserrat', sans-serif; */
+
+header {
+    display:flex;
+    justify-content: space-between;
+    padding:50px 56px;
+}
+
+.express-container{
+    display:flex;
+    align-items: center;
+    margin-bottom: 26px;
+    justify-content:  flex-end;
+}
+
+.express-container img {
+    margin-right: 8px;
+}
+
+.express-container div {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;    
+    color: #3d2514;
+    font-weight: 18px;
+}
+
+.right-side nav a {
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 4px;
+    margin: 0px 26px;    
+    font-size: 22;
+    color: #3d2514;
+}
+
+.right-side nav a:first-child{
+    margin-left: 0;
+}
+.right-side nav a:last-child{
+    margin-right: 0;
+}

@@ -1,0 +1,84 @@
+.tableburger {
+    position: relative;
+    overflow: hidden;
+}
+
+.tableburger img {
+    position: absolute;
+    right: -10px;
+    top: 259px;
+}
+
+.tableburger img:first-of-type{
+left: -20px;
+top: 0px
+}
+
+.tableburger img{
+
+}
+
+.tableburger form {
+    margin:auto;
+    width:800px;
+    padding:24px;
+    text-align: center; 
+    margin-bottom: 177px;
+
+}
+
+.tableburger h2 {
+    font-size: 29px;
+    letter-spacing: 2px;
+    color: #3d2514;
+    font-weight: 700;
+    font-family: 'Bebas Neue', cursive;
+    margin-bottom: 24px;
+}
+
+.tableburger h4 {
+    font-size: 50px;
+    letter-spacing: 3px;
+    color: #3d2514;
+    font-weight: 400;
+    font-family: 'Alfa Slab One', cursive;
+    margin-bottom: 62px;
+    text-transform: uppercase;
+}
+
+
+.tableburger .input-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tableburger input {
+    margin: 26px 12px;
+    font-size: 21px;
+    font-family: 'Bebas Neue', cursive;
+    margin:13 12px;
+    flex: 0 0 calc(50% - 24px);
+    border-radius: 5px;
+    background-color: rgba(235,174,76,0);
+    border: 1px solid #bebebe;
+    height: 66px;
+    text-transform: uppercase;
+    color:#3d3d3d;
+    outline: none;
+}
+
+.tableburger button {
+    font-family: 'Alfa Slab One', cursive;
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 21px;
+    border-radius: 5px;
+    background-color: #bf2222;
+    margin: 13px 12px;
+    text-transform: uppercase;
+    flex: 0 0 calc(50% - 24px);
+}
+
+
+
+

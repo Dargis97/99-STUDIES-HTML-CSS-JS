@@ -1,0 +1,82 @@
+.kubas, .staciakampis {
+    width: 150px;
+    height: 150px;
+    background:red;
+    margin-bottom: 10px;
+    border: solid #333;
+    font-size: 30px;
+    color: blue
+}
+
+.kubas2  {
+    
+    color: green
+}
+
+.staciakampis {
+    width: 200px;
+    background: green;
+}
+
+a:visited{
+    color: green;
+}
+
+
+
+input[type=text]{
+    background: yellow;
+}
+input[type=number]{
+    background: green;
+}
+input[type=email]{
+    background: red;
+
+}
+
+table {
+    border-collapse: collapse;
+    margin: 50px;
+}
+
+td {
+    padding: 4px 8px;
+    border:solid #333;
+}
+
+td:nth-of-type(odd)
+{
+    background: red;
+}
+td:nth-of-type(even)
+{
+    background: yellow;
+}
+
+tr:nth-of-type(even) td:nth-of-type(even){
+    background: blue;
+}
+
+   
+.kubas1{
+    
+    width: 200px;
+    height: 200px;
+    background: blue;
+    position:relative;
+    
+    
+}
+.kubas2{    
+    width: 50px;
+    height: 50px;
+    background: red;
+    position:absolute;
+    left:75px;
+    top:75px;
+    
+}
+
+
+

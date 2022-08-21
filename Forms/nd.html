@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Register</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <h1>Register</h1>
+
+    <form id="register" name="register" action="./registration.html">
+
+        <label for="Firstname">
+            <div>First name</div>
+            <input name="Firstname" type="text" required>
+        </label>
+
+        <label for="Lastname">
+            <div>Last name</div>
+            <input name="Lastname" type="text" required>
+        </label>
+
+        <label for="email">
+            <div>Enter your email adress</div>
+            <input type="email" name="email" required>
+        </label>
+
+        <label for="description">
+            <div>Description</div>
+            <input type="text" id="description" maxlength="200" width="100px" required>
+        </label>
+
+        <label for="gender">
+            <div>Gender</div>
+            <input name="gender" type="radio" required>Male
+            <input name="gender" type="radio" required>Female
+        </label>
+        <br>
+
+        <label for="date">
+            <div>Date of birth</div>
+            <input name="date" type="date" required>
+        </label>
+        <br>
+
+        <label for="City">
+            <div>City of birth</div>
+            <select id="City" required>
+                <option value="">Please choose an option</option>
+                <option value="Vilnius">Vilnius</option>
+                <option value="Klaipeda">Klaipeda</option>
+                <option value="Kaunas">Kaunas</option>
+                <option value="Druskininkai">Druskininkai</option>
+                <option value="Nida">Nida</option>
+            </select>
+        </label>
+
+        <label for="Address">
+            <div>Address</div>
+            <input name="Address" type="text">
+        </label><br><br>
+
+        <label for="newsletter">
+            Subscribe for a newsletter
+            <input name="newsletter" type="checkbox" required>
+        </label><br><br>
+
+        <label for="reset">
+            <input type="reset" name="reset"><br>
+        </label>
+
+        <label>
+            <input form="register" type="submit" value="Register">
+        </label>
+
+    </form>
+
+
+
+
+</body>
+
+</html>

@@ -1,0 +1,24 @@
+/* Pirma uzduotis */ 
+ header div {
+    width: 200px;
+    height: 200px;
+    background: green;
+    margin-bottom: 5px;
+} 
+
+@media (min-width:768px) {
+    header div {
+        background: red;
+        width: 300px;
+        display: block;
+    }
+}
+@media (min-width:1024px) {
+   header div {
+        background: purple;
+        width: 400px;
+    }
+}
+
+
+

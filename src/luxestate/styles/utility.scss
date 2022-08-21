@@ -1,0 +1,33 @@
+@import './theme';
+
+.container {
+    max-width: 1180px;
+    margin: auto;
+}
+
+.logo {
+    font-size: 25px;
+    font-weight: 600;
+    color: $text-color;
+}
+
+@mixin flex-layout($horizontal: center, $vertical: center) {
+    display: flex;
+    justify-content: $horizontal;
+    align-items: $vertical;
+}
+
+
+@keyframes slidein {
+    from {
+        margin-bottom: 5%;
+    }
+
+    to {
+        margin-right: -5%;
+    }
+}
+
+.background {
+    background-color: $secondary;
+}

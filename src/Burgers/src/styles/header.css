@@ -1,0 +1,52 @@
+/* 
+font-family: 'Alfa Slab One', cursive;
+font-family: 'Bebas Neue', cursive;
+font-family: 'Montserrat', sans-serif;
+*/
+
+header {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1440px;
+    margin: auto;
+    padding: 56px 50px;
+}
+
+.express-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-bottom: 26px;
+}
+
+.express-container img {
+    margin-right: 8px;
+}
+
+.express-container div {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-weight: 18px;
+    color: #3d2514;
+}
+
+header .right-side nav a {
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 4px;
+    margin: 0 26px;
+    font-size: 22px;
+    color: #3d2514;
+    cursor: pointer;
+}
+
+header .right-side nav a:hover {
+    color: #fff;
+}
+
+header .right-side nav a:first-child {
+    margin-left: 0;
+}
+
+header .right-side nav a:last-child {
+    margin-right: 0;
+}

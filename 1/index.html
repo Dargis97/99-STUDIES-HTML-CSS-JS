@@ -1,0 +1,63 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fakebook</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="container pt-3">
+        <div class="row">
+            <div class="input-group mb-3">
+                <span class="input-group-text">Search for users</span>
+                <input type="text" class="form-control" id="search">
+            </div>
+        </div>
+        <div class="row">
+            <ul class="list-group list-group-flush" id="suggestionsList">
+
+            </ul>
+        </div>
+        <div class="row">
+            <div class="col-4 bg-light pt-2 me-3">
+                <div id="profileBody">
+                    <!-- Profile data and html -->
+                </div>
+                <div id="activityRoom" class="mt-3 ">
+                    <!-- activityRoom data and html -->
+                </div>
+            </div>
+
+            <div class="col-7 bg-light ">
+                <div class="row">
+                    <button class="btn btn-large w-100 btn-primary mb-2" id="createActivity">
+                        Create activity
+                    </button>
+                </div>
+                <div id="feed" class="row">
+                    <!-- Feed data and html -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="myCard">
+
+    </div>
+
+    <div class="fixed-bottom row justify-content-end mx-5">
+        <div class="row align-items-end flex-column" id="chat">
+            <div class="col-4 bg-secondary rounded-4" id="chatWindow"></div>
+            <button id="chatButton" class="btn col-2 btn-primary m-5">Let's Chat!</button>
+        </div>
+    </div>
+
+</body>
+
+<script src="fakebook.js" type="module"></script>
+
+</html>

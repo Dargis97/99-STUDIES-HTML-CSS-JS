@@ -1,0 +1,85 @@
+// body {
+//     background: black;
+// }
+
+header {
+    position: relative;
+}
+
+.button {
+    overflow: hidden;
+    width: 100px;
+    height: 100px;
+    background: red;
+    menu {
+        position: absolute;
+        left: -100%;
+        top: -50%;
+        transition: left 300ms ease-in-out, top 300ms ease-in-out;
+
+    }
+      
+    &:hover {
+        background: green;
+        menu {
+            left: 0%;
+            top: 20%;
+        }
+        
+    }
+}
+
+.loading {
+    margin: 50px;
+    display: flex;
+    width: 150px;
+    height: 100px;
+    border: 6px dashed rgb(240, 248, 255);
+    border-bottom: none;
+    border-radius: 50%;
+    // animation: infinite-spinning 5s infinite linear;
+    animation: mymove 3s infinite linear,
+        infinite-spinning 3s infinite linear,
+        mymove2 3s infinite linear, ;
+}
+
+@keyframes infinite-spinning {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+
+    }
+
+}
+
+
+@keyframes mymove {
+    0% {
+        top: 0px;
+        background: red;
+        width: 100px;
+    }
+
+    100% {
+        top: 300px;
+        background: yellow;
+        width: 600px;
+    }
+}
+
+@keyframes mymove2 {
+    100% {
+        top: 300px;
+        background: rgb(0, 255, 42);
+        width: 600px;
+    }
+
+    0% {
+        top: 0px;
+        background: rgb(255, 0, 179);
+        width: 100px;
+    }
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div></div>
+
+    <input type="text">
+
+    <button onclick="go()">submit</button>
+
+</body>
+<script>
+    const url = new URL(window.location.href)
+    const input = document.querySelector('input')
+    const div = document.querySelector('div')
+    let username
+    let welcomeMessage
+
+    console.log('standart', window.location.search)
+    
+    let decodedMessage = decodeURIComponent(window.location.search)
+    console.log('decoded', decodedMessage)
+
+    let encodedMessage = encodeURIComponent(decodedMessage)
+    console.log('encoded', encodedMessage)
+
+
+    username = url.searchParams.get('username')
+    welcomeMessage = url.searchParams.get('welcomeMessage')
+
+    if (username && welcomeMessage) div.textContent = `${welcomeMessage} ${username}`
+
+    function go() {
+        url.searchParams.set('username', input.value)
+        url.searchParams.set('welcomeMessage', 'welcome to our + page')
+        window.location.assign(url)
+
+    }
+</script>
+
+</html>

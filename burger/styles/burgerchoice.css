@@ -1,0 +1,54 @@
+.burgerchoice {
+    max-width: 1440px;
+    display: flex;
+    align-items: flex-end;
+    padding: 0 50px;
+    margin: 0 auto 130px;
+    justify-content: space-between;
+
+}
+.firstburger{
+    flex: 0 0 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    
+}
+
+.firstburger img {
+    max-width: 100%;
+}
+
+
+.firstburger h2 {
+    font-size: 38px ;
+    color: #3d2514;
+    font-weight: 700;
+    font-family: 'Bebas Neue', cursive;
+    
+    
+}
+
+.firstburger p {
+    font-size: 17px;
+    color: #3d2514;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 36px;
+    margin-top: 22px;
+    line-height: 21px;
+   
+}
+
+.firstburger button {
+    font-size: 17px;
+    color: #ffffff;
+    padding: 22px 36px 21px 36px;
+    font-weight: 400;
+    font-family: 'Alfa Slab One', cursive;
+    background-color: #bf2222;
+    text-transform: uppercase;
+   
+}
+

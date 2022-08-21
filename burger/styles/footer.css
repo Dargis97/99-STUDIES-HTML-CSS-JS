@@ -1,0 +1,87 @@
+footer {
+    width: 1326px;
+    height: 525px;
+    background: url(../assets/footer.png);
+    max-width: 1440px;
+    margin: auto;
+    margin: 0 57px 66px 57px;
+    position: relative;
+    display: flex;
+}
+
+.kairepuse img {
+    margin: 83px 0 48px 43px
+}
+
+.kairepuse p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 17px;
+    color: #ffffff;
+    font-weight: 400;
+    line-height: 1.5;
+    padding: 0 0 0 43px;
+    width: 512px;
+    height: 88px;
+    margin-bottom: 172px;
+}
+
+.kairepuse small {
+    font-size: 17px;
+    font-weight: 400;
+    font-family: 'Bebas Neue', cursive;
+    color:  #ffffff;
+    margin-left: 43px
+}
+
+.desinepuse img {
+    position: absolute;
+    right: 392px;
+    top: 238px;
+}
+
+.desinepuse img:nth-of-type(2){
+    top: 295px;
+}
+
+/* .desinepuse img:last-of-type{
+    right: 30px;
+    top: 474px;
+} */
+
+.desinepuse h3 {
+    margin-top:247px;
+    font-size: 21px;
+    color:#ffffff;
+    font-weight: 700;
+    font-family: 'Bebas Neue', cursive;
+    margin-left: 456px;
+}
+
+.desinepuse h3:last-child{
+    margin-top:29px ;
+}
+
+.desinepuse li {
+    margin-top:247px;
+    font-size: 21px;
+    color:#ffffff;
+    font-weight: 700;
+    font-family: 'Bebas Neue', cursive;
+    margin-left: 456px;
+}
+
+.desinepuse li:last-child{
+    margin-top:29px ;
+}
+
+
+.apacia ul {
+    display:flex;
+    flex-direction: row;
+    margin-top: 473px;
+    margin-right: 18px;
+}
+
+.apacia li {
+    margin-right: 12px;
+}
